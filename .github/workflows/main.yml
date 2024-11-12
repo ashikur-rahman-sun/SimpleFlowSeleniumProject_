@@ -1,0 +1,13 @@
+name: hello-world
+
+on: 
+  push: 
+    branches:
+      - main
+
+jobs:
+  my-job:
+    runs-on: windows-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
