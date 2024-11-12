@@ -1,0 +1,6 @@
+jobs:
+  my-job:
+    steps: '{name=my-step, run=echo "Hello World!"}'
+    runs-on: windows-latest
+name: hello-world
+'true': push
